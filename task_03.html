@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form action="#">
+
+        HTML 5 color Element <br>
+        Select your favorite color: <input type="color" name="favcolor"><br>
+        <input type="submit"><br /><br />
+
+        HTML 5 input restriction as number<br>
+        Quantity (between 1 and 5):
+        <input type="number" name="quantity" min="1" max="5">
+        <input type="submit" value="Send">
+        <br><br>
+
+        HTML 5 data Encryption<br>
+        Username: <input type="text" name="usr_name">
+        <input type="submit"><br><br>
+
+        HTML 5 date picker <br>
+        Birthday:
+        <input type="date" name="day">
+        <input type="submit" value="Send">
+
+    </form><br><br>
+
+    HTML 5 Audio Element <br>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+    </audio><br>
+    <br>
+
+    HTML 5 CANVAS (graphics and text)<br>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas><br><br>
+    <script>
+
+
+    var c = document.getElementById("myCanvas");
+ var ctx = c.getContext("2d");
+ ctx.font = "30px Arial";
+ ctx.fillText("Hello World",10,50);
+    </script><br><br>
+
+</body>
